@@ -1,0 +1,36 @@
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
+[search]
+other = "Search"
+
+[archives]
+other = "Archives"
+
+[archives_count]
+one = "There is {{ .Count }} article in this blog"
+other = "There are {{ .Count }} articles in this blog"
+
+[404-info]
+other = "Page not found, please check the URL"
+
+[prev_page]
+other = "Previous"
+
+[next_page]
+other = "Next"
+
+[read_more]
+other = "Read More"
+
+[light-mode]
+other = "Light"
+
+[dark-mode]
+other = "Dark"
+
+[system-mode]
+other = "System"

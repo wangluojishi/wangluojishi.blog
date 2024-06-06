@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ partial "post-header.html" . }}
+<section class="section">
+  <div class="container content">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <div class="post-archive">
+          {{ range (where (where .Site.Pages "Type" "post") "Kind" "page").GroupByDate "2006" }}
+          <div class="box container">
+            <h3>{{ .Key }}
+            <span class="tag is-medium is-pulled-right">
+              {{ len .Pages }}
+            </span>
+            </h3>
+            <ul class="listing">
+              {{ range .Pages }}
+              <li>
+                <span class="is-family-monospace">{{ .Date.Format "2006/01/02" }} </span>
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

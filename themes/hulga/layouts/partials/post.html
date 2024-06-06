@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{ partial "post-header.html" . }}
+{{- $setToc := or .Params.toc (and .Site.Params.toc (ne .Params.toc false)) -}}
+{{- $headers := findRE "<h[1-3].*?>(.|\n])+?</h[1-3]>" .Content -}}
+{{- $hasToc := ge (len $headers) 1 -}}
+{{- $showToc := and $setToc $hasToc -}}
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      {{ if $showToc }}
+      <div class="column is-7 is-offset-2">
+      {{ else }}
+      <div class="column is-three-fifths is-offset-one-fifth">
+      {{ end }}
+        <article class="content" id="post-content" {{ if not .Site.Params.noPagefind -}}data-pagefind-body{{- end -}}>
+          {{- .Content -}}
+        </article>
+      </div>
+      {{ if $showToc }}
+      <div class="column is-hidden-mobile">
+        <div class="sidebar pl-4" id="toc">
+          <div class="post post-toc" id="post-toc">
+            <!-- render by tocbot -->
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

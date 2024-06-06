@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-item has-dropdown is-hoverable">
+  <a class="navbar-link">
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em" height="1em"
+    fill="currentColor"
+    viewBox="0 0 32 32"
+    >
+    <path d="M16 .5C7.4.5.5 7.4.5 16S7.4 31.5 16 31.5 31.5 24.6 31.5 16 24.6.5 16 .5zm0 28.1V3.4C23 3.4 28.6 9 28.6 16S23 28.6 16 28.6z" />
+  </svg>
+  </a>
+  <div class="navbar-dropdown" id="navDropdown">
+    <a class="navbar-item theme-toggle" data-value="light">
+      <span class="ticon">
+      <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7"></path></svg>
+      </span>
+      {{- i18n "light-mode" -}}
+    </a>
+    <a class="navbar-item theme-toggle" data-value="dark">
+      <span class="ticon">
+      <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z"></path></svg>
+      </span>
+      {{- i18n "dark-mode" -}}
+    </a>
+    <a class="navbar-item theme-toggle" data-value="system">
+      <span class="ticon">
+      <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm4 15h10m-8-4v4m6-4v4"></path></svg>
+      </span>
+      {{- i18n "system-mode" -}}
+    </a>
+  </div>
+</div>

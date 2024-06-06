@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="wangluojishi/wangluojishi.Giscus"
+        data-repo-id="R_kgDOMCO1hw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOMCO1h84CfsBz"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="noborder_light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+
+
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>Powered by <a href="https://gohugo.io">Hugo</a>. Theme <a href="https://github.com/wlh320/hugo-theme-hulga">Hulga</a></p>
+    <p>
+    {{- if .Site.Params.copyright -}}
+    {{ .Site.Params.copyright }}
+    {{- else -}}
+    {{ .Site.Copyright }}
+    {{ end }}
+    </p>
+  </div>
+  
+</footer>
+{{ if .Site.Params.pwa }}
+{{ partial "pwa.html" . }}
+{{ end }}
+{{ template "_internal/google_analytics.html" . }}

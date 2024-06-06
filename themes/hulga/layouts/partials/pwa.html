@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{ $pwafile := resources.Get "js/pwa.js" }}
+{{ $pwa := $pwafile | resources.ExecuteAsTemplate "js/pwa.js" . |  resources.Minify }}
+<script src="{{ $pwa.Permalink | absURL }}"></script>

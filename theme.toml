@@ -1,0 +1,19 @@
+name = 'hulga'
+license = 'MIT'
+licenselink = 'https://github.com/wlh320/hugo-theme-hulga/blob/master/LICENSE'
+description = 'A simple hugo blog theme based on bulma'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/wlh320/hugo-theme-hulga'
+
+# If you have a running demo of the theme
+demosite = 'https://wlh320.github.io/hugo-theme-hulga'
+
+# Taxonomy terms
+tags = ['bulma', 'blog', 'fast', 'light', 'dark', 'dark mode', 'responsive']
+features = ['bulma', 'fast', 'toc', 'table of contents', 'dark mode', 'archives', 'pwa', 'search']
+
+# If the theme has a single author
+[author]
+  name = 'wlh'
+  homepage = 'https://github.com/wlh320'

@@ -1,0 +1,72 @@
+// bulma customize
+@charset "utf-8";
+
+@import "./functions";
+
+// Set your brand colors
+{{ if .Site.Params.primaryColor }}
+  $primary: {{ .Site.Params.primaryColor }};
+  $bg-is-light: luminance($primary) > 0.55;
+
+  :root {
+    --bulma-primary: #{$primary};
+    --bulma-primary-h: #{hue($primary)};
+    --bulma-primary-s: #{saturation($primary)};
+    --bulma-primary-l: #{lightness($primary)};
+
+    @if $bg-is-light {
+      --bulma-primary-invert-l: var(--bulma-primary-05-l);
+    } @else {
+      --bulma-primary-invert-l: var(--bulma-primary-100-l);
+    }
+  }
+{{ end }}
+
+// Set your link colors (secondary brand color)
+{{ $changeLinkColor := or .Site.Params.linkColor (default true .Site.Params.primaryEverywhere)}}
+{{ if $changeLinkColor }}
+  {{ if .Site.Params.linkColor }}
+    $link: {{ .Site.Params.linkColor }};
+  {{ else if .Site.Params.primaryColor }}
+    $link: {{ .Site.Params.primaryColor }};
+  {{ else }}
+    $link: #00d1b2;
+  {{ end }}
+
+    $bg-is-light: luminance($link) > 0.55;
+
+    :root {
+      --bulma-link: #{$link};
+      --bulma-link-h: #{hue($link)};
+      --bulma-link-s: #{saturation($link)};
+      --bulma-link-l: #{lightness($link)};
+
+      @if $bg-is-light {
+        --bulma-link-invert-l: var(--bulma-link-05-l);
+      } @else {
+        --bulma-link-invert-l: var(--bulma-link-100-l);
+      }
+    }
+{{ end }}
+
+
+// custom css
+@import "./custom";
+
+/* dark theme toggle */
+{{ if .Site.Params.darkToggle }}
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ticon {
+  width: 1.2em;
+  height: 1.2em;
+}
+{{ end }}
+
+/* hero looks like steam deck */
+{{ if .Site.Params.heroSteamDeck }}
+@import "./steamdeck"
+{{ end }}

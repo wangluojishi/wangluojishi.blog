@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html {{if .Site.LanguageCode}}lang="{{.Site.LanguageCode}}"{{end}}>
+{{- partial "head.html" . -}}
+
+<body>
+  <div id="main">
+    <article class="message is-primary is-large">
+      <div class="message-header">
+        <p>404 Page Not Found</p>
+      </div>
+      <div class="message-body">
+        <p>{{ i18n "404-info" }}</p>
+      </div>
+    </article>
+  </div>
+</body>
+
+</html>
