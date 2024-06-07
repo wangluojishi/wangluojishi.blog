@@ -1,8 +1,8 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://www.wangluojishi.com/"
-title = "网络纪实——拒绝岁月史书"
+baseURL = "https://example.com/"
+title = "Hugo Theme MemE"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -15,7 +15,7 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 # Title case style
