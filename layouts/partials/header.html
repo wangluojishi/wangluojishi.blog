@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 {{ if or (or (and .IsHome .Site.Params.displayHeaderInHome) (eq .Site.Params.headerLayout "flex")) (and (not .IsHome) .Site.Params.enableHeader) }}
     <header class="header">
         {{ if eq .Site.Params.headerLayout "flex" }}
@@ -23,4 +33,6 @@
             <a href="{{ "" | relLangURL }}" class="brand">{{ .Site.Title }}</a>
         {{ end }}
     </div>
+
+    
 {{ end }}
