@@ -3,11 +3,23 @@
 title: "17岁网红遭男友PUA致跳楼，聊天记录曝光，女孩哥哥帮维权 "
 draft: false
 date: "2024-05-29"
-categories: [ "网络" ]
+categories: [ "渣男" ]
 tags: ["小冰冷"]
 slug: "1269"
 
 ---
+
+
+
+<iframe src="/images/小冰冷/唐文丽（小冰冷）因与男友感情纠纷跳楼/小冰冷_3.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe src="/images/小冰冷/唐文丽（小冰冷）因与男友感情纠纷跳楼/小冰冷_4.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+
+
+
 
 本事件发生于2023年12月31日。
 男生叫朱志明

@@ -5,7 +5,7 @@ title: "根据胖猫姐姐发的聊天转账记录，猫每周发的工资，
 image: "img/prism.jpg"
 draft: false
 date: 2024-05-29
-categories: [ "网络" ]
+categories: [ "捞女" ]
 tags: ["胖猫事件","谭竹","捞女","男子被pua致死跳江","重庆警方不作为","警方为难胖猫家属"]
 slug: "2528"
 archives: ["2025/29"]

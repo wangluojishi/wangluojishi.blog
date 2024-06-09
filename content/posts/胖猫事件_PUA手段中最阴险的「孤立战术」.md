@@ -3,7 +3,7 @@
 title: "PUA手段中最阴险的孤立战术"
 draft: false
 date: "2024-05-29"
-categories: [ "网络" ]
+categories: [ "捞女" ]
 tags: ["胖猫事件","谭竹","捞女","男子被pua致死跳江","重庆警方不作为","警方为难胖猫家属"]
 slug: "2212"
 
