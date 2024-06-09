@@ -1,12 +1,12 @@
 ##########################################
-# Site Settings
+# 站点配置
 
 baseURL = "https://www.wangluojishi.com"
 title = "网络纪实————拒绝岁月史书"
-languageCode = "en"
+languageCode = "zh-CN"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+copyright = "[随意转载，无需征得同意。](https://github.com/wangluojishi/wangluojishi.blog)"
 
 # Name of theme
 theme = "meme"
@@ -102,7 +102,7 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "网络复制"
     # Email
     email = "reuixiy@gmail.com"
     # Motto or introduction
@@ -110,7 +110,7 @@ uglyURLs = false
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
-    website = "https://io-oi.me/"
+    website = "https://www.wangluojishi.com/"
     # Twitter
     twitter = "reuixiy"
 
@@ -351,7 +351,7 @@ uglyURLs = false
     homeLinksDelimiter = ""
 
     ## Posts
-    enableHideInHomepage = false
+    enableHideInHomepage = true
     # Note: enable `hideInHomepage` front
     #       matter support (disabled by
     #       default for performance concern)
