@@ -624,12 +624,12 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
     # 直接加载评论，不需要手动点击按钮加载
-    autoLoadComments = false
+    autoLoadComments = true
 
     ## Disqus
     enableDisqus = false
@@ -708,11 +708,11 @@ uglyURLs = false
     # 说明：https://github.com/gitalk/gitalk
 
 ## Giscus
-    enableGiscus = false
-    giscusRepo = "[ENTER repo/you/want HERE]"
-    giscusRepoId = "[ENTER REPO ID HERE]"
-    giscusCategory = "[ENTER CATEGORY NAME HERE]"
-    giscusCategoryId = "[ENTER CATEGORY ID HERE]"
+    enableGiscus = true
+    giscusRepo = "wangluojishi/wangluojishi.Giscus"
+    giscusRepoId = "R_kgDOMCO1hw"
+    giscusCategory = "Announcements"
+    giscusCategoryId = "DIC_kwDOMCO1h84CfsBz"
     giscusMapping = "pathname"
     giscusStrict = false
     giscusReactionsEnabled = true
@@ -1453,7 +1453,7 @@ uglyURLs = false
     #      次将生成的 algolia.json 文件上传到
     #      Algolia
 
-    enableAlgoliaSearch = true
+    enableAlgoliaSearch = false
 
     algoliaAppId = ""
     algoliaApiKey = ""
