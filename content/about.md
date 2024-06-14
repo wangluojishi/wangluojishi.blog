@@ -45,7 +45,7 @@ title标题  categories分类   tags 标签 draft 这个不要动 slug链接唯�
 
 ## 如何评论
 
- 评论需注册github账号，注册流程[点击查看](https://www.wangluojishi.com/posts/pinglun/)。
+ 评论需注册github账号，     **注册流程[点击查看](https://www.wangluojishi.com/posts/pinglun/)**。
 
  以前的也记录，但
 
