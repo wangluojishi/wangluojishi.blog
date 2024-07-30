@@ -9,18 +9,17 @@ author = "网络复制"
  本网站创建于2024年5月底，用于记录网络不公等事件。**本人热爱祖国，坚决拥护共产党的领导。**
  如今社会上发生这么多的不公事件，但是自媒体等不实报道，实在意难平。燧创建了这个网站。恶人，也要刻在历史的耻辱柱上。
 ## 投稿
- 一个人更新不过来，欢迎投稿，可以用word写文章，发送到邮箱
-
- **ljfronaldrodriguez880@gmail.com** 
-
- 图片单独放一个文件夹，放图片的地方用（图1、图2代替）。 
-
- 如果你会用markdow语法，那就更好了。这样我可以省去很多排版，插入图片的时间。
-
+ ### 1、注册githu账号并登录
+###  2、访问
+https://github.com/wangluojishi/wangluojishi.blog/discussions
+ 一般浏览器可以翻译英文，也可以QQ截图翻译
+ ![image](https://github.com/user-attachments/assets/98cda8af-0518-4072-8bb5-17cf7563fc70)
+![image](https://github.com/user-attachments/assets/cc25b746-1ce0-461c-8c4a-bb40861d1d61)
+![image](https://github.com/user-attachments/assets/33d8a2b4-f717-443a-a4b2-3412442da1ed)
+ ### 3、点击Start discussion发布
  另一个博主：[石头百科](https://shitoubaike.org/)
  本站也会有复制石头百科内容，有空的同志可以帮忙复制粘贴发到我的邮箱。[markdow语法教程](https://markdown.com.cn/basic-syntax/)
 
- 文件为后缀.md  可用记事本编辑。前面格式：  后面的就是自由编辑啦，按 markdow语法 写就行，不会也没关机，就纯文字。（前后加 ---）**[点击查看示例](/images/注册/投稿怎么写.png)**
 
 ---
 title: "拒绝岁月史书———胖猫谭竹事件最全解析 存档记录"
